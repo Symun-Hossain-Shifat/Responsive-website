@@ -111,6 +111,62 @@ font-weight: bold;
      font-size: 1rem;
     color:#424242 ;
 }
+#you-feature{
+    display: flex;
+   margin-top: 50px;
+   gap: 30px;
+    justify-content: center;
+}
+.same1{
+    max-width: 50%;
+}
+.you-feature-img-container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* .you-feature-img-container{
+    padding-left: 50px;
+} */
+.head-container h2{
+    font-size: 2em;
+    font-weight: bold;
+        margin-bottom: 10px;
+}
+.you-feature-text-container p{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #424242;
+    margin-bottom: 10px;
+}
+.you-feature-text-container{
+    padding-right: 25px;
+}
+.head-container{
+    border-left:  5px solid  #FF900E ;
+    padding-left: 10px;
+}
+.card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.218);
+    margin-top: 10px;
+    padding: 10px;
+}
+.card h5{
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.firstone{
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+.first-unique-button{
+    padding: 10px;
+    margin-left: -30px;
+    margin-top: -130px;
+}
 
 
 
@@ -137,8 +193,12 @@ font-weight: bold;
     flex-direction: column;
     margin-top: 50px;
 } 
+.li-container li{
+   margin-top: 30px;
+    
+} 
 .li-container a{
-    margin-top: 20px;
+   
     font-size: 1.9rem;
     font-weight: 400;
 } 
@@ -179,4 +239,46 @@ font-weight: bold;
  .text-container{
     margin-bottom: 50px;
  }
+ #you-feature{
+    display: flex;
+    flex-direction: column;
+   margin-top: 50px;
+   gap: 30px;
+   text-align: center;
+   align-items: center;
+    justify-content: center;
+}
+.same1{
+    max-width: 90%;
+}
+.you-feature-text-container p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    color:black;
+    margin-bottom: 10px;
+
+}
+.first-unique-button{
+    padding:10px 20px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.card h5{
+    margin-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.head-container{
+    border-left:  5px solid  #FF900E ;
+    padding-left: 10px;
+    text-align: left;
+}
+.subtitle-container{
+    text-align: left;
+    margin-bottom: 50px;
+}
+.card{
+margin-top: 10px ;
+} 
+
 }
