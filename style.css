@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  
+}
+#header{
+   
+   background-color: rgba(255, 144, 14, 0.1); 
+}
+#nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 120px;
+    align-items: center;
+}
+.li-container{
+    display: flex;
+}
+.li-container li ,a{
+list-style: none;
+text-decoration: none;
+}
+.li-container a{
+   margin: 0px 15px;
+   color:#424242 ;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+#nav-container h1{
+font-size: 2rem;
+font-weight: bold;
+}
+.li-container a:hover{
+    color: red;
+}
+#hero-container{
+    max-width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+#hero-container h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    margin: 20px 200px;
+}
+#hero-container p{
+    font-size: 1rem;
+     margin: 10px 150px;
+      color:#424242 ;
+}
+.hero-button{
+    padding: 10px;
+    background-color: #FF900E;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+     margin: 10px auto;
+     border: none;
+}
+.hero-button:hover{
+    color: black;
+}
+.hero-img-container img{
+    width: 100%;
+    margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+  #nav-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 120px;
+    align-items: center;
+    text-align: center;
+}
+.li-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+} 
+.li-container a{
+    margin-top: 20px;
+    font-size: 1.9rem;
+    font-weight: 400;
+} 
+#hero-container{
+    justify-content: center;
+   width: 80%;
+    margin: 1px auto;
+}
+#hero-container h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin: 20px auto;
+}
+#hero-container p{
+    font-size: 1rem;
+     margin: 10px 15px;
+      color:#424242 ;
+}
+}
