@@ -167,8 +167,73 @@ font-weight: bold;
     margin-left: -30px;
     margin-top: -130px;
 }
+#facts{
+    margin-top: 50px;
+}
+#facts h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#facts p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #424242;
+}
+.fact-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+   
+}
+.fact-card{
+    flex-basis: 20%;
+    border: 3px solid  #FF900E ;
+    border-radius: 5px;
+    padding: 30px 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fact-card h5{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.fact-card h6{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #424242;
+}
+#sponsor{
+    margin-top: 50px; 
+}
+#sponsor h2{
+     font-size: 2.5rem;
+    font-weight: bold;
 
-
+}
+#sponsor p{
+     font-size: 1rem;
+    font-weight: 400;
+    color: #424242;
+}
+.icon-container{
+    margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 70px;
+}
+.icon-container img{
+ filter: grayscale(100%);
+ width: 100%;
+}
+footer{
+   background-color: rgba(255, 144, 14, 0.1); 
+   text-align: center;  
+   padding: 15px 0px;
+   font-size: 1rem;
+   font-weight: 500;
+   color: #424242;
+}
 
 
 
@@ -280,5 +345,44 @@ font-weight: bold;
 .card{
 margin-top: 10px ;
 } 
+.fact-card-container{
+    display: flex;
+    flex-direction: column;
+   justify-content:center;
+   align-items: center;
+   margin-top: 45px ;
+   
+}
+.fact-card{
+   width: 80%;
+   height: 500px;
+   margin-bottom: 15px;
+    border: 3px solid  #FF900E ;
+    border-radius: 5px;
+    padding: 30px 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fact-card h5{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.fact-card h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:black;
+}
+.icon-container{
+    margin-top: 50px;
+  display: grid;
+  justify-content:space-between;
+  grid-template-columns: repeat(2,1fr);
+  gap: 70px;
+}
+.icon-container img{
+ filter: grayscale(100%);
+ width: 100%;
+}
 
 }
